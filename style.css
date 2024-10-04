@@ -14,6 +14,16 @@ font-size: 30px;
 color: white;
 line-height: 60px;
 font-weight: 700;
-position: absolute;
+/* mtlb position absolute ka ye hein ky ye ab apny parent ky according apny ap ko adjust kry ga ju ky main body hein */
+position: absolute;   
+}
+/* For the side bar manue */
+.sidebar_menu{
+    position: fixed;
+    width: 300px;
+height: 100vh;
+background-color: rgba(255, 255,255,0.1); 
+/* 0.1 is a opacity */
+box-shadow: 0 0 6px rgba(255, 255,255,0.5) ;
 
 }
