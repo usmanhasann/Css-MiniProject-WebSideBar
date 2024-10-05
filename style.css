@@ -15,6 +15,7 @@ body {
     font-size: 40px;
     color: white;
     line-height: 50px;
+    background-color: red;
     font-weight: 700;
     /* mtlb position absolute ka ye hein ky ye ab apny parent ky according apny ap ko adjust kry ga ju ky main body hein */
     position: absolute;
@@ -104,7 +105,7 @@ i {
 }
 .sidebar_menu .menu li:hover{
     font-size: 30px;
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 6px rgba(107, 43, 43, 0.2);
 }
 .main_box .btn_one i:hover{
 font-size: 45px;    
