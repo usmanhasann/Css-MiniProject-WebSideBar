@@ -12,10 +12,9 @@ body {
 }
 
 .btn_one  {
-    font-size: 40px;
+    font-size: 20px;
     color: white;
-    line-height: 50px;
-    background-color: red;
+    top: 52px;
     font-weight: 700;
     /* mtlb position absolute ka ye hein ky ye ab apny parent ky according apny ap ko adjust kry ga ju ky main body hein */
     position: absolute;
@@ -28,6 +27,7 @@ body {
     position: fixed;
     width: 300px;
     height: 100vh;
+    left: -300vh;
     background-color: rgba(255, 255, 255, 0.1);
     /* 0.1 is a opacity */
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
@@ -39,6 +39,7 @@ body {
     width: 100%;
     line-height: 60px;
     box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+    /* top: 35px; */
 }
 
 .sidebar_menu .logo a {
@@ -46,6 +47,7 @@ body {
     color: white;
     font-size: 21px;
     left: 70px;
+    top: 35px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -68,7 +70,7 @@ body {
 }
 
 .sidebar_menu .menu li {
-    margin-top: 6px;
+    margin-top: 35px;
     padding: 14px 20px;
     
 }
@@ -110,4 +112,10 @@ i {
 .main_box .btn_one i:hover{
 font-size: 45px;    
 
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
 }
